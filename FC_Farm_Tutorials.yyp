@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "9fac4a16-1447-4e88-bf1c-773a47e53e26",
+            "Value": {
+                "id": "b5bad9c1-8373-4ea1-b6b9-89f92facb615",
+                "resourcePath": "objects\/obj_mazie\/obj_mazie.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a14d52a0-e83f-4c51-a25c-5f4f58772337",
             "Value": {
                 "id": "03abbc20-204a-4d80-9128-17c288a54129",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "ae1573ee-a1d6-43e9-b598-34faa3161dcd",
+            "Value": {
+                "id": "ad625633-54ad-435b-9409-fdabb74381d2",
+                "resourcePath": "objects\/obj_olena\/obj_olena.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b536a0fd-4064-4137-8aaf-c3a26bb995b1",
             "Value": {
                 "id": "140887f8-5fa6-4f00-8839-1913d02ce602",
@@ -404,6 +420,14 @@
                 "id": "c7df4b5f-fa0e-44c3-baba-b6ef13a40ec7",
                 "resourcePath": "views\/c1bc969f-b2e5-4a52-994a-54467a01e384.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c44fa60c-863d-4e6e-bd54-87cf8b382c6a",
+            "Value": {
+                "id": "59a800aa-5fb9-4520-9424-6b4cbf7549bf",
+                "resourcePath": "objects\/obj_silvio\/obj_silvio.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -443,6 +467,14 @@
             "Value": {
                 "id": "29417a84-2cc4-4a1c-878b-478df2295e86",
                 "resourcePath": "sprites\/spr_base_female_2\/spr_base_female_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e2a23e07-0290-4b7d-a0c7-d9493419bc4d",
+            "Value": {
+                "id": "f12eddfa-890b-498c-a587-928ee01f4e60",
+                "resourcePath": "sprites\/spr_character_mask\/spr_character_mask.yy",
                 "resourceType": "GMSprite"
             }
         },
