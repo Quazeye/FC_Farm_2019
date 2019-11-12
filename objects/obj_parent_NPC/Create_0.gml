@@ -2,7 +2,7 @@ wSpd = 1;
 nSpd = 2;
 rSpd = 3;
 
-spd = nSpd;
+spd = wSpd;
 
 xFrame = 1;  // first frame 0 is idle so we start at 1
 yFrame = 8;
@@ -11,8 +11,13 @@ xOffset = sprite_get_xoffset(mask_index);
 yOffset = sprite_get_yoffset(mask_index);
 
 spr_shadow = spr_character_shadow;
-spr_base = spr_base_female_5;
-spr_torso = spr_torso_female_sleeveless_white;
-spr_legs = spr_legs_female_pants_teal;
-spr_feet = spr_feet_female_boots_black;
-spr_hair = spr_hair_female_ponytail_raven;
+spr_base = -1;
+spr_torso = -1;
+spr_legs = -1;
+spr_feet = -1;
+spr_hair = -1;
+
+moveX = 0;
+moveY = 0;
+
+alarm[1] = 1;
