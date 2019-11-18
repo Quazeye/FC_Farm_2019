@@ -15,7 +15,7 @@ else
 {
 	spd = nSpd;
 }
-show_debug_message(spd);
+//show_debug_message(spd);
 // Reset Move Variables
 moveX = 0;
 moveY = 0;
