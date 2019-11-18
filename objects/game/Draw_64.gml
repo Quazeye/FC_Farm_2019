@@ -1,3 +1,4 @@
+display_set_gui_maximize();
 
 if(doTransition)
 {   // Handle black fade and room transition

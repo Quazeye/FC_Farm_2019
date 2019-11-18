@@ -71,12 +71,15 @@ if(moveY != 0)
 var inst = instance_place(x,y, obj_transition);
 if(inst != noone)
 {
-	show_debug_message("Does not equal noone");
 	with(game)
 	{
-		spawnRoom = inst.targetRoom;
-		show_debug_message(spawnRoom);
-		doTransition = true;
+		if(!doTransition)
+		{
+			spawnRoom = inst.targetRoom;
+			spawnX = inst.targetX;
+			spawnY = inst.targetY;
+			doTransition = true;
+		}
 	}
 }
 
