@@ -66,6 +66,20 @@ if(moveY != 0)
 		moveY = 0;
 	}
 }
+
+// Objects
+var inst = instance_place(x,y, obj_transition);
+if(inst != noone)
+{
+	show_debug_message("Does not equal noone");
+	with(game)
+	{
+		spawnRoom = inst.targetRoom;
+		show_debug_message(spawnRoom);
+		doTransition = true;
+	}
+}
+
 // Apply Movement
 x += moveX;
 y += moveY;
