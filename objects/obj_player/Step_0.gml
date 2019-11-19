@@ -27,6 +27,37 @@ if(moveX = 0)  // So we can't move diagonally
 	moveY = (inputDown - inputUp) * spd;
 }
 
+// Get Direction Player Is Facing
+if(moveX != 0)
+{
+	switch(sign(moveX))
+	{
+		case 1:
+			facing = dir.right;
+			break;
+		case -1:
+			facing = dir.left;
+			break;
+	}
+}
+else if(moveY != 0)
+{
+	switch(sign(moveY))
+	{
+		case 1:
+			facing = dir.down;
+			break;
+		case -1:
+			facing = dir.up;
+			break;
+	}
+}
+else
+{
+	facing = -1;
+}
+
+
 // Collision Check
 //  Horizontal
 if(moveX != 0)
@@ -69,7 +100,7 @@ if(moveY != 0)
 
 // Objects
 var inst = instance_place(x,y, obj_transition);
-if(inst != noone)
+if(inst != noone && facing == inst.playerFacingBefore)
 {
 	with(game)
 	{
@@ -78,6 +109,7 @@ if(inst != noone)
 			spawnRoom = inst.targetRoom;
 			spawnX = inst.targetX;
 			spawnY = inst.targetY;
+			spawnPlayerFacing = inst.playerFacingAfter;
 			doTransition = true;
 		}
 	}
