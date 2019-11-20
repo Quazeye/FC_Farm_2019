@@ -122,7 +122,7 @@
             "Key": "3d4018f3-d7d0-42d2-8d5c-3e933ce57ce3",
             "Value": {
                 "id": "261a819e-a650-4e3a-b19b-3bad21ef2622",
-                "resourcePath": "rooms\\rm_forest\\rm_forest.yy",
+                "resourcePath": "rooms\/rm_forest\/rm_forest.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -474,7 +474,7 @@
             "Key": "b9062a5c-25f9-44ad-a17e-2b2aa73ba346",
             "Value": {
                 "id": "c4a08613-53d4-4f05-bd09-0d77c6c1176a",
-                "resourcePath": "rooms\\rm_farmhouse_upstairs\\rm_farmhouse_upstairs.yy",
+                "resourcePath": "rooms\/rm_farmhouse_upstairs\/rm_farmhouse_upstairs.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -554,7 +554,7 @@
             "Key": "cc84272b-5e79-4c47-98d6-e9e334e7d7b8",
             "Value": {
                 "id": "1f4b879a-d92a-44fa-a572-c3bde1c8a034",
-                "resourcePath": "objects\\obj_transition\\obj_transition.yy",
+                "resourcePath": "objects\/obj_transition\/obj_transition.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -587,6 +587,14 @@
             "Value": {
                 "id": "1bb50c0c-b670-42bf-b3b5-577f06abe3f6",
                 "resourcePath": "sprites\/spr_tile_interior\/spr_tile_interior.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d792c176-4552-41c0-a7c5-15d420aee315",
+            "Value": {
+                "id": "a33a0d00-de39-4f53-b032-f17befe6c24b",
+                "resourcePath": "sprites\/spr_transition\/spr_transition.yy",
                 "resourceType": "GMSprite"
             }
         },
