@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "93f4a749-02d3-41f8-990d-4aa6b2efc14e",
+            "Value": {
+                "id": "b3bbc67a-6b45-4065-9adc-dd017570192c",
+                "resourcePath": "scripts\\instance_create_crop\\instance_create_crop.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "954a6174-dbf7-44f1-99e8-de4620b910a2",
             "Value": {
                 "id": "74ccb50d-a183-45cd-929b-941c67803b75",
@@ -744,7 +752,8 @@
         }
     ],
     "script_order": [
-        "1fafd606-8a0f-4cbb-a85a-5379f2761736"
+        "1fafd606-8a0f-4cbb-a85a-5379f2761736",
+        "93f4a749-02d3-41f8-990d-4aa6b2efc14e"
     ],
     "tutorial": ""
 }
