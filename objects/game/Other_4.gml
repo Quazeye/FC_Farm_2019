@@ -1,3 +1,7 @@
+
+roomWidth = room_width;
+roomheight = room_height;
+
 if(spawnRoom != -1)
 {
 	obj_player.x = spawnX;
