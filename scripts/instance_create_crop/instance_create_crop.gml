@@ -10,6 +10,10 @@ var yy = argument1 div cs;
 xx *= cs;
 yy *= cs;
 
+//Check for soil
+var layerID = layer_get_id("T_Soil");
+var tilemap_ID = layer_tilemap_get_id(layerID);
+var data = tilemap_get_at_pixel(tilemap_ID, argument0, argument1);
 
 //Create the instance
 var inst = instance_create_layer(xx+(cs/2), yy+(cs/2), "Instances", obj_crop);
