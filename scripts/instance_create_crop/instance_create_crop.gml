@@ -15,6 +15,16 @@ var layerID = layer_get_id("T_Soil");
 var tilemap_ID = layer_tilemap_get_id(layerID);
 var data = tilemap_get_at_pixel(tilemap_ID, argument0, argument1);
 
+if(data == 0)
+{
+	show_debug_message("There is no soil here.");
+	return false;
+}
+else
+{
+	show_debug_message("There is soil here.");
+}
+
 //Create the instance
 var inst = instance_create_layer(xx+(cs/2), yy+(cs/2), "Instances", obj_crop);
 
